@@ -8,13 +8,13 @@ class FirefightingRobot:
         self.path = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'j']  # Predefined movement path
         self.current_position = 'a'
 
+    def get_symbol(self, room):
+        return "🔥" if self.environment[room] == "fire" else " "
+
     def display_environment(self):
         print(f"[{self.get_symbol('a')}][{self.get_symbol('b')}][{self.get_symbol('c')}]")
         print(f"[{self.get_symbol('d')}][{self.get_symbol('e')}][{self.get_symbol('f')}]")
         print(f"[{self.get_symbol('g')}][{self.get_symbol('h')}][{self.get_symbol('j')}]")
-
-    def get_symbol(self, room):
-        return "🔥" if self.environment[room] == "fire" else " "
 
     def move_and_extinguish(self):
         for room in self.path:
