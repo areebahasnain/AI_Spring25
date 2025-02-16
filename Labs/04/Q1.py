@@ -42,7 +42,6 @@ def get_neighbors(maze, node):
     return neighbors
 
 
-# Maze with dead ends and multiple goals
 maze = [
 [0, 1, 0, 0, 1],
 [0, 1, 0, 1, 0],
@@ -51,7 +50,7 @@ maze = [
 [0, 0, 0, 0, 0]
 ]
 start = (0, 0)
-goals = [(4, 4), (2, 2), (1, 4)]  # Multiple goals at different locations
+goals = [(4, 4), (2, 2), (1, 4)]
 
 # Find the path
 path = best_first_search_multi_goal(maze, start, goals)
