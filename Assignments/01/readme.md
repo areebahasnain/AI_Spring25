@@ -72,20 +72,41 @@ Uses convolutional neural networks (CNNs) for analyzing medical images and recur
 
 Incorporates uncertainty modeling (e.g., Bayesian networks) to handle the non-deterministic nature of medical diagnoses.
 
-**Model-Based Reflex Agent:**
-
-Uses a learned model of the environment (e.g., relationships between symptoms, lab results, and diseases) to make informed decisions.
-
-Continuously updates its model based on new patient data and medical research.
-
-### *Examples:*
-IBM Watson Health: Uses a hybrid approach combining rule-based reasoning and machine learning to assist in cancer diagnosis and treatment recommendations.
-
-Google’s DeepMind: Employs deep learning models for medical imaging analysis, such as detecting eye diseases from retinal scans.
-
-PathAI: Leverages AI to improve pathology diagnostics by analyzing tissue samples and providing diagnostic insights.
-
 # Question 4
 
+### 1. An agent that senses only partial information about the state cannot be perfectly rational.
+False.
+
+An agent can still be perfectly rational even with partial information, as rationality depends on maximizing expected utility given the available information. For example, a stock trader may not have complete information about all market variables (e.g., insider information) but can still make rational decisions based on publicly available data, trends, and risk analysis. Similarly, a doctor diagnosing a patient may not have access to every possible test result but can still make rational treatment decisions based on symptoms and available medical history.
+
+### 2. There exist task environments in which no pure reflex agent can behave rationally.
+True.
+
+A pure reflex agent cannot behave rationally in environments where decision-making requires memory or reasoning about past states. For example, in a negotiation task, where the optimal strategy depends on understanding the opponent's past behavior and adapting accordingly, a reflex agent would fail to act rationally. 
+
+### 3. There exists a task environment in which every agent is rational.
+True.
+
+In a trivial task environment where all actions lead to the same outcome or where there is only one possible action, every agent will behave rationally because there is no better alternative. For example, in an environment where the agent's only task is to "do nothing," any agent will trivially be rational. This demonstrates that such environments exist, even if they are simple or degenerate cases.
+
+### 4. The input to an agent program is the same as the input to the agent function.
+False.
+
+The input to the agent program is the current percept (sensor data), while the input to the agent function is the entire percept sequence (history of percepts). The agent program uses the current percept to update its internal state and select an action, whereas the agent function maps the entire history of percepts to actions. For example, a voice assistant (like Siri or Alexa) processes the current voice command (percept) but relies on past interactions and context to provide meaningful responses.
+
+### 5. Every agent function is implementable by some program/machine combination.
+False.
+
+Not every agent function is implementable because some functions require infinite memory or computational resources that are not physically realizable. For example, an agent function that predicts the exact winning numbers of a lottery draw is impossible to implement because lottery draws are designed to be random and unpredictable. Even if the agent has access to all historical data, there is no deterministic pattern to exploit, making such a function uncomputable.
+
+### 6. Suppose an agent selects its action uniformly at random from the set of possible actions. There exists a deterministic task environment in which this agent is rational.
+True.
+
+In a deterministic task environment where all actions lead to the same outcome or where the agent's actions have no effect on the environment, selecting an action uniformly at random can be considered rational. For example, in a coin-flipping game where the agent's goal is to predict the outcome of a fair coin toss, choosing randomly is perfectly rational because no strategy can improve the odds. Similarly, in a maze environment where all paths lead to the same exit, a random agent would perform just as well as a deterministic one.
+
+### 7. It is possible for a given agent to be perfectly rational in two distinct task environments.
+True.
+
+An agent can be perfectly rational in two distinct task environments if its actions align with the optimal behavior in both environments. For example, a vacuum cleaner agent can be rational in both a cleaning task (where it maximizes cleanliness) and a battery conservation task (where it minimizes energy usage), as long as its actions are optimized for the respective goals. 
 
 
