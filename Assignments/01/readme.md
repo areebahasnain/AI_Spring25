@@ -38,7 +38,7 @@ Feasibility: Not feasible.
 Explanation: Unloading a dishwasher requires advanced robotics, including dexterity, object recognition, and adaptability to different kitchen layouts and dishware arrangements. While robotic arms have made progress in controlled environments, handling the variability and fragility of real-world dishware in diverse home settings remains a significant challenge.
 
 ### 8. Construct a building
-Feasibility: Partially feasible.
+Feasibility: Not feasible.
 
 Explanation: AI and robotics can assist in specific aspects of construction, such as design (via generative AI), site surveying (via drones), and bricklaying (via robots like SAM by Construction Robotics). However, constructing an entire building autonomously is infeasible due to the complexity of coordinating tasks, handling unexpected issues, and ensuring safety and compliance with regulations.
 
