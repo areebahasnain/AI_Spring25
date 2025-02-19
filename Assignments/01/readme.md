@@ -13,7 +13,7 @@ Feasibility: Feasible.
 Explanation: AI systems like Suphx have achieved superhuman performance in bridge, particularly in online platforms. These systems use advanced algorithms to analyze probabilities, strategies, and bidding patterns. However, replicating human-like intuition and partnership dynamics in face-to-face games remains a challenge.
 
 ### 3. Writing an intentionally funny story
-Feasibility: Partially feasible.
+Feasibility: Not feasible.
 
 Explanation: AI models like GPT-4 can generate humorous text, including jokes and funny snippets. However, crafting a consistently funny story requires deep understanding of context, timing, and cultural nuances, which AI still struggles with. While AI can produce humor, it often lacks the creativity and subtlety of human-generated humor.
 
