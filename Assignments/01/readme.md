@@ -55,7 +55,7 @@ Example actions: Detect abnormalities in medical images (e.g., tumors in X-rays)
 ### *Environment Characteristics:*
 **Accessible:** Partially accessible. The agent has access to patient records, medical images, and lab results, but it may not have complete information about all symptoms, patient history, or external factors (e.g., lifestyle, environmental influences).
 
-**Deterministic:** Mostly non-deterministic. The same symptoms or test results can indicate multiple diseases, and the agent must handle uncertainty and variability in medical data.
+**Deterministic:** Non-deterministic. The same symptoms or test results can indicate multiple diseases, and the agent must handle uncertainty and variability in medical data.
 
 **Episodic:** Sequential. Patient history and prior diagnoses significantly influence future recommendations, making the environment sequential rather than purely episodic.
 
