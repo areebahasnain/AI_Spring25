@@ -19,7 +19,9 @@ The **mathematical objection**, based on Gödel’s incompleteness theorems, sug
 
 ### Validity of Turing’s Refutations
 
-Turing effectively refuted several objections, particularly the **theological** and **disability** arguments. The **theological objection** claimed that intelligence is tied to the possession of a soul, making machine intelligence impossible. Turing countered by questioning the assumption that divinity would limit intelligence to humans alone, a response that has largely rendered the objection irrelevant in scientific discourse.
+Turing effectively refuted several objections, particularly the **theological** and **disability** arguments. 
+
+The **theological objection** claimed that intelligence is tied to the possession of a soul, making machine intelligence impossible. Turing countered by questioning the assumption that divinity would limit intelligence to humans alone, a response that has largely rendered the objection irrelevant in scientific discourse.
 
 The **argument from disabilities** asserted that machines could never perform tasks requiring qualities such as intuition, humor, or emotional intelligence. Turing rejected this claim by noting that machines could be programmed to perform unexpected behaviors, effectively mimicking these human traits. Today, AI systems such as GPT-4 and DeepMind's AlphaGo demonstrate that machines can indeed surprise their programmers by finding novel solutions. While AI still struggles with common sense reasoning and emotional depth, its capabilities in strategic thinking, problem-solving, and creative tasks suggest that Turing’s refutation remains largely valid.
 
