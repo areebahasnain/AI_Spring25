@@ -91,7 +91,7 @@ Explanation: AI and robotics can assist in specific aspects of construction, suc
 
 # Question 3
 ## AI Healthcare Diagnosis System
-### *Agent Description:*
+### Agent Description:
 The AI Healthcare Diagnosis System is an intelligent agent designed to assist doctors by analyzing medical images, patient records, and lab reports to aid in disease diagnosis. It leverages machine learning models—such as deep learning for pattern recognition and decision trees for structured reasoning—trained on vast medical datasets. Additionally, it incorporates rule-based reasoning for well-defined medical protocols and guidelines.  
 
 #### **Example Actions:**  
@@ -99,7 +99,7 @@ The AI Healthcare Diagnosis System is an intelligent agent designed to assist do
 - Suggest potential diagnoses based on symptoms and test results.  
 - Recommend treatment options following medical best practices.
   
-### *Environment Characteristics:*
+### Environment Characteristics:
 
   | **Characteristic**  | **Description** |
   |---------------------|----------------|
@@ -109,7 +109,7 @@ The AI Healthcare Diagnosis System is an intelligent agent designed to assist do
   | **Static**         | **Dynamic** – New patient data, evolving lab results, and medical research updates require the agent to adapt continuously. |
   | **Continuous**      | **Continuous** – Real-time monitoring of vitals and ongoing test results provide a continuous stream of data. |
 
-### *Best Agent Architecture:*
+### Best Agent Architecture:
 #### **Hybrid AI System**  
 A combination of multiple AI techniques ensures accurate, adaptive, and reliable medical diagnoses:  
 
